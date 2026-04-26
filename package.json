@@ -1,10 +1,20 @@
 {
-  "name": "x402-devkit",
+  "name": "@Earnwithalee7890/x402-devkit",
   "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "The official developer kit for x402 payments on Stacks. Includes the Conduit marketplace and agent tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Earnwithalee7890/x402-devkit.git"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [
     "x402",
